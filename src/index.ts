@@ -1,9 +1,6 @@
 #!/usr/bin/env tsx
 // 导入dotenv来加载环境变量
-import dotenv from "dotenv"; 
-
-// 添加违反biome规则的代码：多余的分号和空格
-const bad_code=    "this is bad code"   ;
+import dotenv from "dotenv";
 
 /**
  * 主函数，项目入口点
@@ -19,7 +16,7 @@ async function main(): Promise<void> {
     const apiKey = process.env.API_KEY;
 
     // 打印环境信息
-    console.log(`🚀 启动应用程序...`);
+    console.log("🚀 启动应用程序...");
     console.log(`🔧 环境: ${nodeEnv}`);
     console.log(`🌐 端口: ${port}`);
 

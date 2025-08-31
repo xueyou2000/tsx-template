@@ -9,8 +9,7 @@
 - **pnpm** - 高性能包管理器
 - **tsx** - 快速运行 TypeScript 源码
 - **dotenv** - 环境变量管理
-- **Oxlint** - 高性能代码检查工具（替代 ESLint）
-- **Biome** - 快速代码格式化和检查工具（替代 Prettier）
+- **Biome** - 快速代码格式化和检查工具（替代 ESLint + Prettier）
 - **commitlint + husky** - Git 提交规范和钩子
 
 ## 📁 项目结构
@@ -22,7 +21,6 @@
 │       └── logger.ts   # 日志工具
 ├── .gitignore          # Git 忽略文件配置
 ├── tsconfig.json       # TypeScript 配置
-├── oxlint.config.js    # Oxlint 配置
 ├── biome.json          # Biome 配置
 ├── commitlint.config.js # Commitlint 配置
 ├── .huskyrc.json       # Husky 配置
