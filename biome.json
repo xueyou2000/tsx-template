@@ -29,6 +29,11 @@
     "lineWidth": 100,
     "lineEnding": "lf"
   },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single"
+    }
+  },
   "files": {
     "includes": ["**", "!**/node_modules", "!**/dist", "!**/coverage"]
   }
