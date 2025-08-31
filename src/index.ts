@@ -1,6 +1,9 @@
 #!/usr/bin/env tsx
 // 导入dotenv来加载环境变量
-import dotenv from "dotenv";
+import dotenv from "dotenv"; 
+
+// 添加违反biome规则的代码：多余的分号和空格
+const bad_code=    "this is bad code"   ;
 
 /**
  * 主函数，项目入口点

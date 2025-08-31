@@ -3,7 +3,7 @@
 /**
  * @type {import('@commitlint/types').UserConfig}
  */
-module.exports = {
+export default {
   extends: ["@commitlint/config-conventional"],
   rules: {
     // 允许的类型
