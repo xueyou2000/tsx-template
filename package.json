@@ -1,0 +1,41 @@
+{
+  "name": "tsx-template",
+  "version": "1.0.0",
+  "description": "A modern TypeScript project template using ESM",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "lint": "biome check .",
+    "lint:fix": "biome check --apply .",
+    "lint:unsafe-fix": "biome check --fix --unsafe .",
+    "format": "biome format --write .",
+    "format:fix": "biome format --write . && biome check --fix --unsafe .",
+    "commitlint": "commitlint",
+    "prepare": "husky install",
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "esm",
+    "tsx",
+    "template"
+  ],
+  "author": "XueYou",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.6",
+    "@commitlint/cli": "^18.6.0",
+    "@commitlint/config-conventional": "^18.6.0",
+    "@types/node": "^20.11.10",
+    "husky": "^8.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
